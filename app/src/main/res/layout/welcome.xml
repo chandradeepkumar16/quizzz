@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="287dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:text="What do you want to do ..."
+        android:textSize="18dp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/completeNow"
+        android:layout_width="124dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/ch"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/completeNowtv"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:gravity="center"
+        android:text="Complete Your Quiz"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/explorebt"
+        android:layout_width="131dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/explore"
+        android:text=""
+        android:layout_marginLeft="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/exploretv"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:gravity="center"
+        android:text="Explore"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/learnbt"
+        android:layout_width="131dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/rap"
+        android:text=""
+
+        android:layout_marginLeft="120dp"
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/learntv"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:text="Learn"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:textStyle="normal|bold" />
+
+<!--    <Button-->
+<!--        android:id="@+id/pracrapbt"-->
+<!--        android:layout_width="123dp"-->
+<!--        android:layout_height="127dp"-->
+<!--        android:layout_marginLeft="200dp"-->
+<!--        android:layout_marginTop="500dp"-->
+<!--        android:background="@drawable/prac"-->
+<!--        android:text=""-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/pracraptv"-->
+<!--        android:layout_width="147dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="200dp"-->
+<!--        android:layout_marginTop="470dp"-->
+<!--        android:text="Practice rap"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="normal|bold" />-->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="290dp"
+        android:background="@android:color/holo_orange_light"
+        app:backgroundTint="@android:color/holo_orange_light"
+
+        android:src="@drawable/ic_create"
+        >
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+</RelativeLayout>
+</ScrollView>
